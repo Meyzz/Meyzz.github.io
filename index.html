@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>lol</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js"
+            integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg=="
+            crossorigin="anonymous"></script>
+    <style>
+        .page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            height: 100%;
+            text-align: center;
+            background-color: #ffc107;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div>
+        <div>
+            Общий счет: <span class="text-primary">7</span> (К) - <span class="text-primary">5</span> (Н)
+        </div>
+        <div>
+            <span>Осталось подождать дней:</span>
+            <span class="text-primary" id="date"></span>
+        </div>
+    </div>
+</div>
+<script>
+    const days = moment('04.06.2022', 'DD.MM.YYYY').diff(moment(), 'days');
+    document.getElementById('date').innerHTML = days;
+</script>
+</body>
+</html>
