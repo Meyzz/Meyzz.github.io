@@ -29,11 +29,18 @@
             <span>Осталось подождать дней:</span>
             <span class="text-primary" id="date"></span>
         </div>
+        <div>
+            <span>Дней вместе:</span>
+            <span class="text-primary" id="dateDays"></span>
+        </div>
     </div>
 </div>
 <script>
     const days = moment('04.06.2022', 'DD.MM.YYYY').diff(moment(), 'days');
     document.getElementById('date').innerHTML = days;
+
+    const dateDays = moment('16.08.2020', 'DD.MM.YYYY').diff(moment(), 'days');
+    document.getElementById('dateDays').innerHTML = dateDays * -1;
 </script>
 </body>
 </html>
