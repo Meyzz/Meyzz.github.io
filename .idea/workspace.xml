@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfb6b28-7759-4b44-a3cb-d5d4667dbd85" name="Default Changelist" comment="test">
+    <list default="true" id="5cfb6b28-7759-4b44-a3cb-d5d4667dbd85" name="Default Changelist" comment="alert errror">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <workItem from="1602408522636" duration="29000" />
       <workItem from="1602421654690" duration="123000" />
       <workItem from="1602876121357" duration="41000" />
-      <workItem from="1603139854859" duration="638000" />
+      <workItem from="1603139854859" duration="1090000" />
     </task>
     <task id="LOCAL-00001" summary="обновил счет">
       <created>1601877424879</created>
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603140454533</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="alert errror">
+      <created>1603140600216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603140600216</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +121,14 @@
     <MESSAGE value="обновил счет" />
     <MESSAGE value="up" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="alert errror" />
+    <option name="LAST_COMMIT_MESSAGE" value="alert errror" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1603140456706">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1603140601766">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-53.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603140456706" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-53.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603140601766" />
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1602876146103" />
   </component>
 </project>
