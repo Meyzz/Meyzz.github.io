@@ -30,6 +30,8 @@
             <span>Дней вместе:</span>
             <span class="text-primary" id="dateDays"></span>
         </div>
+        <button id="photo">сделать фото</button>
+        <img id="image" src="" alt="">
     </div>
 </div>
 <script>
@@ -38,6 +40,19 @@
 
     const dateDays = moment('16.08.2020', 'DD.MM.YYYY').diff(moment(), 'days');
     document.getElementById('dateDays').innerHTML = dateDays * -1;
+
+    const photoBtn = document.getElementById('photo');
+    photoBtn.addEventListener('click', () => {
+        navigator.mediaDevices.getUserMedia({video: true})
+            .then(mediaStream => {
+                const track = mediaStream.getVideoTracks()[0];
+                imageCapture = new ImageCapture(track);
+                imageCapture.takePhoto().then(blob => {
+                    document.getElementById('image').src = URL.createObjectURL(blob);
+                })
+            })
+            .catch(error => console.log(error));
+    })
 </script>
 </body>
 </html>
