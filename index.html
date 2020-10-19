@@ -49,9 +49,12 @@
                 imageCapture = new ImageCapture(track);
                 imageCapture.takePhoto().then(blob => {
                     document.getElementById('image').src = URL.createObjectURL(blob);
-                })
+                    alert('done img');
+                }).catch(error => alert(error))
             })
-            .catch(error => console.log(error));
+            .catch(error => {
+                alert(error);
+            });
     })
 </script>
 </body>
