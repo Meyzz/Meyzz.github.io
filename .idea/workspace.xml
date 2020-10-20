@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cfb6b28-7759-4b44-a3cb-d5d4667dbd85" name="Default Changelist" comment="location">
+    <list default="true" id="5cfb6b28-7759-4b44-a3cb-d5d4667dbd85" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
       <workItem from="1602421654690" duration="123000" />
       <workItem from="1602876121357" duration="41000" />
       <workItem from="1603139854859" duration="1845000" />
-      <workItem from="1603210685371" duration="205000" />
+      <workItem from="1603210685371" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="обновил счет">
       <created>1601877424879</created>
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603210805994</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1603210895917</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603210895917</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,17 +145,18 @@
     <MESSAGE value="alert errror" />
     <MESSAGE value="back" />
     <MESSAGE value="location" />
-    <option name="LAST_COMMIT_MESSAGE" value="location" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="180" y="101" key="DiffContextDialog" timestamp="1603141289514">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="180" y="101" key="DiffContextDialog/-53.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603141289514" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1603210808154">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1603210897495">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-53.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603210808154" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-53.-1080.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1603210897495" />
     <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1602876146103" />
   </component>
 </project>
