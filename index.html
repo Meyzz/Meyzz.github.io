@@ -30,6 +30,7 @@
             <span>Дней вместе:</span>
             <span class="text-primary" id="dateDays"></span>
         </div>
+        <button id="location-btn">get location</button>
     </div>
 </div>
 <script>
@@ -38,6 +39,21 @@
 
     const dateDays = moment('16.08.2020', 'DD.MM.YYYY').diff(moment(), 'days');
     document.getElementById('dateDays').innerHTML = dateDays * -1;
+
+    document.getElementById('location-btn').addEventListener('click', () => {
+        navigator.geolocation.getCurrentPosition(success, error);
+    });
+
+    function success(position) {
+        const latitude  = position.coords.latitude;
+        const longitude = position.coords.longitude;
+
+        alert(`Latitudekek: ${latitude} °, Longitudelol: ${longitude} °`);
+    }
+
+    function error() {
+        alert('Ошибка!');
+    }
 </script>
 </body>
 </html>
